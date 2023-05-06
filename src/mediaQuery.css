@@ -1,0 +1,27 @@
+@media (min-width: 992px) {
+  .navbar-collapse {
+    display: flex;
+  }
+}
+@media (min-width: 768px) {
+  .container,
+  .container-md,
+  .container-sm {
+    max-width: 90% !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .react-responsive-modal-root {
+    position: fixed;
+    top: auto !important;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
+  .react-responsive-modal-modal {
+    margin: 0 !important;
+  }
+}
+@media (min-width: 576px) {
+}

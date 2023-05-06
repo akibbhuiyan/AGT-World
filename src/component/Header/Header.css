@@ -1,0 +1,136 @@
+.navbar-collapse {
+  width: 100% !important;
+  justify-content: space-around !important;
+}
+.logo img {
+  width: 162.27px;
+  height: 24px;
+  margin-left: 70px;
+}
+.search-bar .search-input {
+  width: 360px;
+  height: 42px;
+  background-color: #f2f2f2;
+  border: 0px solid;
+  border-radius: 21px;
+  padding-left: 50px;
+  color: #5c5c5c;
+  outline: none;
+  transition: 0.3s ease-in-out;
+}
+.search-bar .search-input:focus {
+  border: 2px solid #f2f2f2;
+  box-shadow: none !important;
+}
+.search-bar {
+  position: relative;
+  margin-right: 2rem;
+}
+.search-bar .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 19px;
+  transform: translateY(-50%);
+  color: #7a7a7a;
+}
+.nav-acount {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2e2e2e;
+  line-height: 21px;
+}
+.nav-acount span {
+  color: #2f6ce5;
+}
+.signupbtn {
+  color: #2e2e2e;
+}
+.react-responsive-modal-modal {
+  padding: 0 !important;
+}
+.text-success {
+  padding: 13px 45px;
+}
+.text-success {
+  padding: 13px 45px;
+  background-color: #effff4;
+}
+.profile-pic {
+  width: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.modal-main-body {
+  padding: 36px;
+}
+.login-title {
+  font-weight: 700;
+  line-height: 23px;
+  font-size: 25px;
+}
+.login-middle {
+  margin-bottom: 24px;
+}
+.tab-change a {
+  font-size: 17px;
+  font-weight: 700;
+  color: #2f6ce5 !important;
+}
+.login-form input {
+  background-color: #f7f8fa;
+  border: 1px solid #d9d9db;
+  border-radius: 2px 2px 0px 0px;
+  padding: 10px 12px;
+  width: 100%;
+  color: #8a8a8a;
+  outline: none;
+  margin-bottom: 2px;
+}
+.login-form .col-md-6,
+.login-form .col-md-12 {
+  padding: 0;
+}
+.passtoShow {
+  position: relative;
+}
+.passtoShow svg {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.submit-btn {
+  background: #2f6ce5;
+  border-radius: 20px;
+  border: none;
+  padding: 9px 0px;
+  margin-top: 21px !important;
+  margin-bottom: 24px;
+  color: #fff;
+  font-weight: 500;
+}
+.facebookLogin-btn,
+.googleLogin-btn {
+  padding: 6px;
+  margin-bottom: 8px;
+  background: #ffffff;
+  border: 0.6px solid #d9d9db;
+  border-radius: 2px;
+}
+.facebookLogin-btn svg,
+.googleLogin-btn svg {
+  margin-right: 10px;
+}
+.facebookLogin-btn svg {
+  color: #2f6ce5;
+}
+.showcase img {
+  width: 100%;
+  height: 100%;
+}
+.forgot-pass {
+  text-align: center;
+  margin-top: 23px !important;
+  font-weight: 500;
+  color: #000;
+}
